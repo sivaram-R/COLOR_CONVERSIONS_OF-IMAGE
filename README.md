@@ -27,8 +27,8 @@ Anaconda - Python 3.7
 
 ##### Program:
 ```
-### Developed By: DEEPIKA S
-### Register Number: 212222230028
+### Developed By:Sivaram R
+### Register Number: 212222100050
 ```
 <table>
   <tr>
@@ -38,9 +38,9 @@ Anaconda - Python 3.7
 ### i) Read and display the image
 ```Python
     import cv2
-    image=cv2.imread('Deepika.jpg',1)
+    image=cv2.imread('moun.jpg',1)
     image=cv2.resize(image,(400,300))
-    cv2.imshow('Deepika',image)
+    cv2.imshow('moun',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
@@ -61,8 +61,8 @@ Anaconda - Python 3.7
 ### ii)Write the image
 ```Python
     import cv2
-    image=cv2.imread('Deepika.jpg',0)
-    cv2.imwrite('nemo.jpg',image)
+    image=cv2.imread('moun.jpg',0)
+    cv2.imwrite('mini.jpg',image)
 ```
   </td>
   <td>
@@ -78,7 +78,7 @@ Anaconda - Python 3.7
 ### iii)Shape of the Image
 ```Python
      import cv2
-    image=cv2.imread('Deepika.jpg',1)
+    image=cv2.imread('moun.jpg',1)
     print(image.shape)
 ```
   </td> 
@@ -95,7 +95,7 @@ Anaconda - Python 3.7
 ```Python
      import random
      import cv2
-     image=cv2.imread('Deepika.jpg',1)
+     image=cv2.imread('moun.jpg',1)
      image=cv2.resize(image,(400,400))
      for i in range (150,200):
        for j in range(image.shape[1]):
@@ -121,7 +121,7 @@ Anaconda - Python 3.7
 ### v)Cut and paste portion of image
 ```Python
      import cv2
-     image=cv2.imread('Deepika.jpg',1)
+     image=cv2.imread('moun.jpg',1)
      image=cv2.resize(image,(400,400))
      tag =image[150:200,110:160]
      image[110:160,150:200] = tag
@@ -142,7 +142,7 @@ Anaconda - Python 3.7
 ### vi) BGR and RGB to HSV and GRAY
 ```Python
     import cv2
-    img = cv2.imread('Deepika.jpg',1)
+    img = cv2.imread('moun.jpg',1)
     img = cv2.resize(img,(300,200))
     cv2.imshow('Original Image',img)
 
@@ -168,7 +168,7 @@ Anaconda - Python 3.7
 ### vii) HSV to RGB and BGR
 ```Python
 import cv2
-img = cv2.imread('Deepika.jpg')
+img = cv2.imread('moun.jpg')
 img = cv2.resize(img,(300,200))
 
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
@@ -190,7 +190,7 @@ cv2.destroyAllWindows()
 ### viii) RGB and BGR to YCrCb
 ```Python
 import cv2
-img = cv2.imread('Deepika.jpg')
+img = cv2.imread('moun.jpg')
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original RGB Image',img)
 
@@ -211,7 +211,7 @@ cv2.destroyAllWindows()
 ### ix) Split and merge RGB Image
 ```Python
 import cv2
-img = cv2.imread('Deepika.jpg',1)
+img = cv2.imread('moun.jpg',1)
 img = cv2.resize(img,(300,200))
 
 R = img[:,:,2]
@@ -236,7 +236,7 @@ cv2.destroyAllWindows()
 ### x) Split and merge HSV Image
 ```Python
 import cv2
-img = cv2.imread("Deepika.jpg",1)
+img = cv2.imread("moun.jpg",1)
 img = cv2.resize(img,(300,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
