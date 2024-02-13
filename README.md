@@ -69,7 +69,7 @@ Anaconda - Python 3.7
 
 #### OUTPUT:
 
-![deepikasinivasandipt](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/f79b52d6-f77d-4ede-8b90-7ffe48d4efaa)
+
 </td>
 </tr> 
 <tr> 
@@ -85,7 +85,7 @@ Anaconda - Python 3.7
   <td>
 
 #### OUTPUT:
-![deepikasrinivasandipt2](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/a2a41755-ec98-4916-8b10-ce4029169c76)
+
   </td>
   </tr> 
   <tr>
