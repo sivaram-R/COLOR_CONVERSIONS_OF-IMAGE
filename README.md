@@ -38,9 +38,9 @@ Anaconda - Python 3.7
 ### i) Read and display the image
 ```Python
     import cv2
-    image=cv2.imread('moun.jpg',1)
+    image=cv2.imread('but.jpg',1)
     image=cv2.resize(image,(400,300))
-    cv2.imshow('moun',image)
+    cv2.imshow('but',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
@@ -48,7 +48,7 @@ Anaconda - Python 3.7
   <td>
     
 #### OUTPUT:
-![Deepika](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/beba183b-6b80-4254-a5ac-c0a9c0ed29be)
+![1](https://github.com/sivaram-R/COLOR_CONVERSIONS_OF-IMAGE/assets/121165794/eaf79d84-f5b3-40a4-8e3e-1650a4d49ec7)
 </td>
 </tr>
 
@@ -61,14 +61,14 @@ Anaconda - Python 3.7
 ### ii)Write the image
 ```Python
     import cv2
-    image=cv2.imread('moun.jpg',0)
+    image=cv2.imread('but.jpg',0)
     cv2.imwrite('mini.jpg',image)
 ```
   </td>
   <td>
 
 #### OUTPUT:
-
+![2](https://github.com/sivaram-R/COLOR_CONVERSIONS_OF-IMAGE/assets/121165794/0a033122-b82e-401f-8aef-2044f790d074)
 
 </td>
 </tr> 
@@ -78,13 +78,14 @@ Anaconda - Python 3.7
 ### iii)Shape of the Image
 ```Python
      import cv2
-    image=cv2.imread('moun.jpg',1)
+    image=cv2.imread('but.jpg',1)
     print(image.shape)
 ```
   </td> 
   <td>
 
 #### OUTPUT:
+![3](https://github.com/sivaram-R/COLOR_CONVERSIONS_OF-IMAGE/assets/121165794/526d6206-8a6f-457e-8fe7-d08f63774dad)
 
   </td>
   </tr> 
@@ -110,8 +111,7 @@ Anaconda - Python 3.7
   <td width="50%">
 
 #### OUTPUT:
-
-![deepikasrinivasan DIPT](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/ffd8934a-d95d-4e6f-b50d-d5c9c5024c46)
+![4](https://github.com/sivaram-R/COLOR_CONVERSIONS_OF-IMAGE/assets/121165794/9cbbe1b4-6bad-4049-bd26-418595bf9f40)
 
  </td>
  </tr>
@@ -133,8 +133,7 @@ Anaconda - Python 3.7
   <td>
 
 #### OUTPUT:
-
-![deepikasrinivasanDIPT1](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/4c37d6dd-4392-4b61-abcc-b7dfe50a886f)
+![5](https://github.com/sivaram-R/COLOR_CONVERSIONS_OF-IMAGE/assets/121165794/7561656f-271a-4187-81e9-e30ce8fe7394)
  </td>
  </tr>
 </table>
@@ -163,7 +162,7 @@ Anaconda - Python 3.7
 ```
 #### OUTPUT:
 
-![deepikasrinivasan DIPT2](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/6e7474d1-141a-49c7-9af5-d04eadaa4c69)
+![6](https://github.com/sivaram-R/COLOR_CONVERSIONS_OF-IMAGE/assets/121165794/5853421a-fc05-48b6-9ece-75883ff3352f)
 
 ### vii) HSV to RGB and BGR
 ```Python
@@ -185,7 +184,7 @@ cv2.destroyAllWindows()
 ```
 #### OUTPUT:
 
-![deepikasrinivasan DIPT3](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/47eeed19-b91a-4099-87c2-ad9be38a474a)
+![7](https://github.com/sivaram-R/COLOR_CONVERSIONS_OF-IMAGE/assets/121165794/2fb232c7-f68c-48c8-8679-27bb35941929)
 
 ### viii) RGB and BGR to YCrCb
 ```Python
@@ -205,8 +204,7 @@ cv2.destroyAllWindows()
 ```
 #### OUTPUT:
 
-![deepikasrinivasan DIPT4](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/5d881349-8569-4831-a6ca-ea4740691579)
-
+![Uploading 8.png…]()
 
 ### ix) Split and merge RGB Image
 ```Python
