@@ -203,8 +203,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 #### OUTPUT:
-
-![Uploading 8.png…]()
+![8](https://github.com/sivaram-R/COLOR_CONVERSIONS_OF-IMAGE/assets/121165794/097959da-801f-4d35-861b-c38252fdf0ed)
 
 ### ix) Split and merge RGB Image
 ```Python
@@ -227,9 +226,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 #### OUTPUT:
-
-![deepikasrinivasan DIPT5](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/50393780-01e4-4523-840d-f7282e980faf)
-
+![9](https://github.com/sivaram-R/COLOR_CONVERSIONS_OF-IMAGE/assets/121165794/9f8752a9-efb8-4825-9f7c-b64a8ab5a682)
 
 ### x) Split and merge HSV Image
 ```Python
@@ -251,9 +248,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 #### OUTPUT:
-
-![deepikasrinivasan DIPT6](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/1b066b61-0ee9-45c5-abd4-b8df5e8966dd)
-
+![10](https://github.com/sivaram-R/COLOR_CONVERSIONS_OF-IMAGE/assets/121165794/35134279-245b-4c07-b661-3db39128c039)
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
