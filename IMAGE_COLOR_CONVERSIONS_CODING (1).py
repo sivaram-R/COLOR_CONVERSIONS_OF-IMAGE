@@ -6,7 +6,7 @@
 import cv2
 image=cv2.imread('but.jpg',1)
 image=cv2.resize(image,(200,325))
-cv2.imshow('image',image)
+cv2.imshow('but',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
